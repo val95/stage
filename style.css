@@ -1,0 +1,85 @@
+
+	body {
+		background-color:rgb(10, 108, 83) ;
+		padding-top: 30px;
+
+	}
+
+	fieldset{
+	  	margin:auto;
+	  	background-color: white ;
+	  	color : grey;
+	  	border: 2px solid rgb(10, 108, 83);
+	    border-radius:8px;
+	}
+	input {
+		width: 100%;
+	}
+	
+	
+	h1{
+		text-align: center;
+		color: black;
+		margin-bottom:0px;	
+	}
+	#fieldtitre img {
+		margin:auto;
+		display:block; 
+		height:50px;
+	    width:50px;
+	    position: relative;
+	    bottom: 25px;
+	    border-radius: 100%;
+	}
+	#fieldtitre{
+		height: 10px;
+	}
+	.form-colonne div {
+		width: 49% ;
+		display: inline-block;
+	}
+	form{
+		font-weight: bold;
+		padding:20px;
+
+	}
+	#valider{
+		border: 2px solid orange;
+		border-radius: 8px ;
+		height: 30px ;
+		width: 100px;
+		background-color: orange ;
+		color : white;
+		font-weight: bold;
+		float:right;
+	}
+	
+	#formulaire input {
+		border: 1px solid lightgrey ;
+		border-radius: 8px ;
+		height: 50px;
+		background-color: white;
+		color : black;
+
+	}
+
+
+@media (min-width: 1300px)
+{
+	fieldset{
+		width: 50%;
+	}
+}
+@media (min-width: 650px) and (max-width:1299px)
+{
+	fieldset{
+		width: 60%;
+	}
+}
+
+@media (max-width:550px)
+{
+	fieldset{
+		width: 90%;
+	}
+}
